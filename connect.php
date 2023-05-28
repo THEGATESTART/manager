@@ -13,7 +13,4 @@
 
     mysqli_query($con,"SET NAMES UTF8");
 
-    $sqlGet = "select * from product_tb";
-    $sqlRs = mysqli_query($con,$sqlGet);
-
 ?>

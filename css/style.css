@@ -8,6 +8,9 @@ body {
 .clear {
     clear: both;
 }
+input[type=submit] {
+    cursor: pointer;
+}
 
 .container {
     width: 960px;
@@ -94,4 +97,27 @@ body {
     padding: .5rem 1rem;
     width: 100%;
     background-color: #ff3b3b;
+}
+
+/* Add Page */
+.addProduct {
+    padding: 1rem;
+}
+.addProduct h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.addProduct .formInsert {
+    margin-left: 2rem;
+}
+.formInsert td {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+}
+.formInsert th {
+    padding: 1rem;
+}
+.btnSave {
+    padding: .5rem 1rem;
+    margin-top: 1rem;
 }
